@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct ContentNewView: View {
 
   let units = [UnitVolume.milliliters,
                UnitVolume.liters,
@@ -28,24 +28,26 @@ struct ContentView: View {
   var body: some View {
     NavigationView {
       Form {
-        Section {
+        Section(header: Text("Enter amount to convert")) {
           TextField("Enter amount", text: $value)
         }
-        Section {
+        Section(header: Text("Enter Input Unit")) {
           Picker("Enter Input Unit", selection: $inputUnit) {
             ForEach(0..<units.count) { i in
               Text(units[i].symbol)
             }
           }
+          .pickerStyle(SegmentedPickerStyle())
         }
-        Section {
+        Section(header: Text("Enter Output Unit")) {
           Picker("Enter Output Unit", selection: $outputUnit) {
             ForEach(0..<units.count) { i in
               Text(units[i].symbol)
             }
           }
+          .pickerStyle(SegmentedPickerStyle())
         }
-        Section {
+        Section(header: Text("Converted Amount")) {
           Text("\(converted)")
         }
       }
@@ -53,8 +55,8 @@ struct ContentView: View {
   }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct ContentNewView_Previews: PreviewProvider {
   static var previews: some View {
-    ContentView()
+    ContentNewView()
   }
 }

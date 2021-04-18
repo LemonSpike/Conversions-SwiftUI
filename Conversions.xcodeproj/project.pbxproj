@@ -11,6 +11,7 @@
 		FDD7A82A25697AE100AFFA89 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD7A82925697AE100AFFA89 /* ContentView.swift */; };
 		FDD7A82C25697AE400AFFA89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDD7A82B25697AE400AFFA89 /* Assets.xcassets */; };
 		FDD7A82F25697AE400AFFA89 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDD7A82E25697AE400AFFA89 /* Preview Assets.xcassets */; };
+		FDD7A8382569865500AFFA89 /* ContentViewNew.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD7A8372569865500AFFA89 /* ContentViewNew.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		FDD7A82B25697AE400AFFA89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FDD7A82E25697AE400AFFA89 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FDD7A83025697AE400AFFA89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDD7A8372569865500AFFA89 /* ContentViewNew.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewNew.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				FDD7A82725697AE100AFFA89 /* ConversionsApp.swift */,
 				FDD7A82925697AE100AFFA89 /* ContentView.swift */,
+				FDD7A8372569865500AFFA89 /* ContentViewNew.swift */,
 				FDD7A82B25697AE400AFFA89 /* Assets.xcassets */,
 				FDD7A83025697AE400AFFA89 /* Info.plist */,
 				FDD7A82D25697AE400AFFA89 /* Preview Content */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDD7A8382569865500AFFA89 /* ContentViewNew.swift in Sources */,
 				FDD7A82A25697AE100AFFA89 /* ContentView.swift in Sources */,
 				FDD7A82825697AE100AFFA89 /* ConversionsApp.swift in Sources */,
 			);
